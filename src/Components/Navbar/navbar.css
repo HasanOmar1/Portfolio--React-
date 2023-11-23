@@ -1,0 +1,36 @@
+.nav-bar{
+    height: 70px;
+    background-image: linear-gradient(to bottom, #0e320e, #0e270d, #0d1d0a, #071306, #010201);
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    margin-left: 7%;
+    padding-top: 0.3%;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 12ch;
+    cursor: pointer;
+}
+
+.info-container{
+    margin-left: 50%;
+    margin-top: 1.3%;
+    font-size: 1.5rem;
+}
+
+.info-container a{
+    color: white;
+    margin-left: 20%;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.info-container a:hover{
+    border: 3px solid wheat;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+}
