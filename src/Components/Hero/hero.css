@@ -1,0 +1,16 @@
+.welcome-page{
+    background-image: linear-gradient(to right top, #0e131c, #051f28, #002b2b, #133524, #323d1a);
+        height: 76vh;
+}
+
+.welcome-title{
+    font-size: 4.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    width: 30ch;
+    margin-left: 7%;
+    
+}
