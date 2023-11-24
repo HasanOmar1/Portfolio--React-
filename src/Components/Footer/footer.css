@@ -48,3 +48,7 @@ position: relative;
     font-size: 0.9rem;
     margin-left: 13%;
 }
+
+.submit-btn{
+    opacity: 1;
+}
