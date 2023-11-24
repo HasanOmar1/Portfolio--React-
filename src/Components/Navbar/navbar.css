@@ -35,10 +35,11 @@
     font-weight: bold;
     
 }
+
 .info-container a:hover{
     border: 3px solid wheat;
     border-top: none;
     border-right: none;
-    border-left: none;
-
+    border-left: none;         
 }
+

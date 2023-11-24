@@ -4,12 +4,12 @@ import '../../assets/cat.jpg'
 
 export default function Hero() {
   return (
-    <section id='home' className='welcome-page'>
+    <main id='home' className='welcome-page'>
         <h1 className='welcome-title'>
           <span id='welcome-word'>WELCOME</span>
            TO MY 
            <span id='welcome-word'>PORTFOLIO</span></h1>
         <div className='avatar'></div>
-    </section>
+    </main>
   )
 }

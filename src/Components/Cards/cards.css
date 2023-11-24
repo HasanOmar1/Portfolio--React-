@@ -25,11 +25,15 @@
     width: 400px;
     position: absolute;
     top: 6rem;
+    border-radius: 10px;
+    transition: transform 0.6s;
 
 }
 
 .projects-cards img:hover{
     transform: scale(1.2);
+    border: 2px solid darkred;
+    
     
 }
 .projects-cards p{
@@ -42,7 +46,7 @@
     text-decoration: none;
     margin-left: 2rem;
     color: burlywood;
-    border: 1px solid gold;
+    outline: 2px solid gold;
     padding: 10px 20px;
     background-color: brown;
     top: 10rem;
@@ -52,8 +56,9 @@
 }
 
 .projects-cards a:hover{
-    background-color: darkgreen;
+    background-color: seagreen;
     color: white;
-    border-color: gray;
+    outline: 2px solid darkorange;
+    border: none;
     
 }

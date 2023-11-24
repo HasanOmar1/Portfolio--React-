@@ -35,7 +35,7 @@ export default function Projects() {
         <Cards
         title={`Amazon Product`}
         img={amazon}
-        description={`I have copied an amazon product page`}
+        description={`I have copied an amazon product page using only HTML + CSS`}
         site={amazonSite}
         github={amazonGithub}
         />
