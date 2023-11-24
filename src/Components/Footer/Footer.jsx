@@ -16,11 +16,11 @@ export default function Footer() {
         <div className="social-media">
             <div className="email-container ">
             <SiGmail className='icons'/>
-            <p>: r3domar1@gmail.com</p>
+            <p>r3domar1@gmail.com</p>
             </div>
             <div className="discord-container ">
             <BsDiscord className='icons'/>
-            <p>: vramv</p>
+            <p>vramv</p>
             </div>
             <div className="instagram-container">
             <a href="https://www.instagram.com/hasanomar99" target='_blank'><FiInstagram className='icons link'/></a>

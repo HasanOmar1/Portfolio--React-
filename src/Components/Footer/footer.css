@@ -16,6 +16,7 @@ margin-left: 40%;
 margin-top: 2%;
 position: relative;
 }
+
 .email-container ,
 .discord-container,
 .instagram-container,
@@ -56,4 +57,53 @@ position: relative;
 
 .submit-btn{
     opacity: 1;
+}
+
+
+
+@media (max-width: 576px) {
+footer{
+width: 100%;
+}
+#socials-h3{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.social-media{
+margin-left: -70px;
+font-size: 0.8rem;
+
+}
+.social-media p{
+    padding-left: 5px;
+}
+
+.icons{
+    font-size: 1.2rem;
+    
+}
+.email-container p,
+.discord-container p{
+    position: relative;
+    left: -83px;
+    top: -5px;
+}
+
+.instagram-container{
+    position: relative;
+    left: -100px;
+    top: 30px;
+}
+.github-container{
+    position: absolute;
+    left: -100px;
+    top: 80px;
+    
+    
+}
+.copy-right{
+    margin-left: 50%;
+    margin-top: 15px;
+}
 }
