@@ -3,6 +3,11 @@
     background-image: linear-gradient(to bottom, #0e320e, #0e270d, #0d1d0a, #071306, #010201);
     display: flex;
     flex-direction: row;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    opacity: 0.9;
+
 }
 
 .logo{

@@ -1,0 +1,15 @@
+.about-me{
+    height: 70vh;
+    background-image: linear-gradient(to right bottom, #1f345c, #09152a, #293243, #133524, #323d1a);
+
+}
+
+.about-me h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    font-size: 3rem;
+    text-decoration:underline;
+    color: bisque;
+}

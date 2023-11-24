@@ -1,16 +1,39 @@
 .welcome-page{
     background-image: linear-gradient(to right top, #0e131c, #051f28, #002b2b, #133524, #323d1a);
-        height: 76vh;
+        height: 83vh;
 }
-
+#welcome-word{
+    color: burlywood;
+}
 .welcome-title{
     font-size: 4.3rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 10%;
-    width: 30ch;
-    margin-left: 7%;
-    
+    width: 10ch;
+    margin-left: 30%;
+    letter-spacing: 0.3rem; 
+    line-height: 1.2; 
+}
+
+.avatar{
+    width: 350px;
+    height: 400px;
+    border: 3px solid gray;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    background: url(../../assets/cat.jpg) no-repeat center center/cover;
+    border-radius: 30%;
+    animation: animate 20s infinite linear;
+}
+
+
+@keyframes animate{
+    to {
+        transform: rotate(360deg);
+    }
 }
