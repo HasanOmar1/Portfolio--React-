@@ -33,6 +33,7 @@
 
 .about-me{
     height: 50vh;
+    width: 100%;
 }
 .about-me h1{
     font-size: 2rem;

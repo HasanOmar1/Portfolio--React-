@@ -61,7 +61,7 @@ position: relative;
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 576px) {
 footer{
 width: 100%;
 }

@@ -82,6 +82,7 @@ form textarea:focus{
 .form-section{
 
     height: 80vh;
+    width: 100%;
 
 }
 .form-section h1{
