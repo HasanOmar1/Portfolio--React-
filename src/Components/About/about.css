@@ -13,3 +13,18 @@
     text-decoration:underline;
     color: bisque;
 }
+
+.about-spans{
+    color: burlywood;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 1.7rem;
+    line-height: 1.7;
+
+}

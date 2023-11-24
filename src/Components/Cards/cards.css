@@ -1,0 +1,59 @@
+.projects-cards{
+    background-image: linear-gradient(to right top, #181712, #2f3320, #3e5233, #44764f, #399b75); 
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid gray;
+    border-radius: 10%;
+
+}
+
+.projects-cards h3{
+    font-size: 2rem;
+    position: absolute;
+    top: 2rem;
+    color: white;
+
+}
+
+.projects-cards img{
+    width: 400px;
+    position: absolute;
+    top: 6rem;
+
+}
+
+.projects-cards img:hover{
+    transform: scale(1.2);
+    
+}
+.projects-cards p{
+    position: absolute;
+    top: 22rem;
+
+}
+.projects-cards a{
+    position: relative;
+    text-decoration: none;
+    margin-left: 2rem;
+    color: burlywood;
+    border: 1px solid gold;
+    padding: 10px 20px;
+    background-color: brown;
+    top: 10rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+}
+
+.projects-cards a:hover{
+    background-color: darkgreen;
+    color: white;
+    border-color: gray;
+    
+}

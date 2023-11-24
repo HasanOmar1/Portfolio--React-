@@ -6,11 +6,12 @@ export default function Navbar() {
 <nav>
 <div className="nav-bar">
     <div className="logo">
-        <a id='logo'>HASAN</a>
+        <a  href="#home" id='logo'>HASAN</a>
     </div>
     <div className="info-container">
     <a href="#home">Home</a>
     <a href="#about">About</a>
+    <a href="#projects">Projects</a>
     <a href="#">Contact</a>       
     </div>
 </div>

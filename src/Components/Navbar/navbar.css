@@ -16,7 +16,10 @@
     font-size: 3rem;
     font-family: 'Times New Roman', Times, serif;
     width: 12ch;
-    cursor: pointer;
+}
+#logo{
+    color: white;
+    text-decoration: none; 
 }
 
 .info-container{
@@ -27,7 +30,7 @@
 
 .info-container a{
     color: white;
-    margin-left: 20%;
+    margin-left: 10%;
     text-decoration: none;
     font-weight: bold;
     

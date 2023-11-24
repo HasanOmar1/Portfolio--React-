@@ -1,0 +1,23 @@
+.my-projects{
+    height: 120vh;
+    background-image: linear-gradient(to right top, #341a37, #09152a, #293243, #133524, #341c24);
+
+}
+
+.cards{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+
+}
+.my-projects h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    font-size: 3rem;
+    text-decoration:underline;
+    color: bisque;
+}
