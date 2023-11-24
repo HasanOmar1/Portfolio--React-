@@ -1,0 +1,49 @@
+footer{
+    height: 25vh;
+}
+
+#socials-h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.social-media{
+margin-left: 40%;
+margin-top: 2%;
+position: relative;
+}
+.email-container ,
+.discord-container,
+.instagram-container,
+.github-container{
+    display: flex;
+    padding-bottom: 1rem;
+    
+}
+
+.social-media p{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.instagram-container,
+.github-container{
+    position: absolute;
+    top: 0;
+    left: 20rem;
+}
+
+.github-container{
+    top: 50px;
+}
+
+.icons{
+    font-size: 2rem;
+}
+
+.copy-right{
+    color: black;
+    font-size: 0.9rem;
+    margin-left: 13%;
+}
