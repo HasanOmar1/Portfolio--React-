@@ -28,3 +28,19 @@
     line-height: 1.7;
 
 }
+
+@media (max-width: 576px) {
+
+.about-me{
+    height: 50vh;
+}
+.about-me h1{
+    font-size: 2rem;
+}
+.about-info {
+    font-size: 0.9rem;
+    margin-top: 5rem;
+    padding-left: 10px;
+    line-height: 3;
+}
+}

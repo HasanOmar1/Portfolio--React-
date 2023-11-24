@@ -21,3 +21,16 @@
     text-decoration:underline;
     color: bisque;
 }
+
+@media (max-width: 576px) {
+.my-projects{
+        height: 100%;
+}
+.my-projects h1{
+    font-size: 2rem;
+}
+.cards{
+    flex-direction: column;
+    margin-left: 5rem;
+}
+}
