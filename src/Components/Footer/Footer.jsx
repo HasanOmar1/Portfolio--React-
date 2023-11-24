@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 import { SiGmail } from "react-icons/si";
 import { BsDiscord } from "react-icons/bs";
-import { FiInstagram } from "react-icons/fi";
+import { BsInstagram } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 
 
@@ -23,7 +23,7 @@ export default function Footer() {
             <p>vramv</p>
             </div>
             <div className="instagram-container">
-            <a href="https://www.instagram.com/hasanomar99" target='_blank'><FiInstagram className='icons link'/></a>
+            <a href="https://www.instagram.com/hasanomar99" target='_blank'><BsInstagram  className='icons link'/></a>
             </div>
             <div className="github-container">
             <a href="https://github.com/hasanomar1" target='_blank'><FaGithub className='icons link'/></a>
