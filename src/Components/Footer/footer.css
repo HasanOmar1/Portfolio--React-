@@ -7,7 +7,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding-top: 1%;
-    padding-left: 7%;
+    padding-left: 3%;
 }
 
 .social-media{
@@ -41,6 +41,10 @@ position: relative;
 
 .icons{
     font-size: 2rem;
+    color: white;
+}
+.link:hover{
+    color: green;
 }
 
 .copy-right{

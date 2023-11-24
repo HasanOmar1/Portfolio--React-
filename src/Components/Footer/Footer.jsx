@@ -23,16 +23,16 @@ export default function Footer() {
             <p>: vramv</p>
             </div>
             <div className="instagram-container">
-            <FiInstagram className='icons'/>
-            <p>: Hasanomar99</p>
+            <a href="https://www.instagram.com/hasanomar99" target='_blank'><FiInstagram className='icons link'/></a>
+            {/* <p>: Hasanomar99</p> */}
             </div>
             <div className="github-container">
-            <FaGithub className='icons'/>
-            <p>: HasanOmar1</p>
+            <a href="https://github.com/hasanomar1" target='_blank'><FaGithub className='icons link'/></a>
+            {/* <p>: HasanOmar1</p> */}
             </div>
 
             <div className="copy-right">
-                <p>Copyright : Hasan ©</p>
+                <p>Copyright - Hasan ©</p>
             </div>
         </div>
     </footer>
