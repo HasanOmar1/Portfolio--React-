@@ -23,7 +23,7 @@ export default function About() {
                 I have been gaming for more than <span className='about-spans'>10</span> years
             </h3>
             <h3>
-            I have recently <span className='about-spans'>Joined</span> the programmers club 🐱‍👤
+            I have recently <span className='about-spans'>Joined</span> the programming club 🐱‍👤
             </h3>
         </div>
 
