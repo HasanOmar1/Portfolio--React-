@@ -24,11 +24,9 @@ export default function Footer() {
             </div>
             <div className="instagram-container">
             <a href="https://www.instagram.com/hasanomar99" target='_blank'><FiInstagram className='icons link'/></a>
-            {/* <p>: Hasanomar99</p> */}
             </div>
             <div className="github-container">
             <a href="https://github.com/hasanomar1" target='_blank'><FaGithub className='icons link'/></a>
-            {/* <p>: HasanOmar1</p> */}
             </div>
 
             <div className="copy-right">
