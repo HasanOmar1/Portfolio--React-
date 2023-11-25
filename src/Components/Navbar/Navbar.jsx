@@ -8,7 +8,6 @@ export default function Navbar() {
     <div className="logo">
     <a  href="#home" id='logo'>HASAN</a>
     </div>
-
     <input id='menu-toggle' type="checkbox" />
     <label class='menu-button-container' for="menu-toggle">
     <div class='menu-button'></div>

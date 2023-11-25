@@ -71,7 +71,7 @@ width: 100%;
 }
 
 .social-media{
-margin-left: -70px;
+margin-left: 7rem;
 font-size: 1rem;
 
 }
@@ -86,22 +86,19 @@ font-size: 1rem;
 .email-container p,
 .discord-container p{
     position: relative;
-    left: -83px;
     top: -5px;
 }
 .github-container{
     position: absolute;
-    left: -100px;
+    left: 0;
     top: 80px;
       
 }
 
 .instagram-container{
     position: relative;
-    left: -100px;
+    left: 0;
     top: 33px;
 }
-.copy-right{
-    margin-left: 50%;
-}
+
 }
