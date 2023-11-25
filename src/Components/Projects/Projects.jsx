@@ -19,7 +19,7 @@ export default function Projects() {
         <Cards
         title={`2D Minecraft`}
         img={minecraft}
-        description={`I have created a 2D Minecraft game with tools to play`}
+        description={`2D Minecraft game with tools to play`}
         site={minecraftGame}
         github={minecraftGithub}
          />
@@ -27,7 +27,7 @@ export default function Projects() {
         <Cards
         title={`Dice Game`}
         img={dice}
-        description={`I have created a 1vs1 Dice game to play with friends`}
+        description={`1vs1 Dice game to play with friends`}
         site={diceGame}
         github={diceGithub}
         />
@@ -35,7 +35,7 @@ export default function Projects() {
         <Cards
         title={`Amazon Product`}
         img={amazon}
-        description={`I have copied an amazon product page using only HTML + CSS`}
+        description={`A copy of an amazon product using only HTML and CSS`}
         site={amazonSite}
         github={amazonGithub}
         />
