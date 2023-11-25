@@ -3,6 +3,9 @@ import './form.css'
 
 export default function Form() {
 
+    function handleClick(){
+        alert(`Form Submitted!`)
+    }
 
   return (
     <section id='contact' className='form-section'>
@@ -21,7 +24,7 @@ export default function Form() {
             <div className="textarea-form size">
                 <textarea id='textarea'  cols="50" rows="6" required></textarea>
             </div>
-            <input className='submit-btn' type="submit" />
+            <input className='submit-btn' type="submit" onClick={handleClick} />
         </form>
         </div>
     </section>
