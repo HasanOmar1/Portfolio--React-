@@ -34,3 +34,10 @@
     margin-left: 7rem;
 }
 }
+
+@media (max-width: 400px) {
+.my-projects{
+    height: 280vh;
+}
+
+}

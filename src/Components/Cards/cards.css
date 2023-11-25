@@ -101,3 +101,12 @@
 
 }
 }
+
+
+@media (max-width: 400px) {
+
+.projects-cards p{
+
+    margin-left: -20px;
+}
+}

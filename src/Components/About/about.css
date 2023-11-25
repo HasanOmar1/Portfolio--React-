@@ -45,3 +45,14 @@
     line-height: 3;
 }
 }
+
+@media (max-width: 400px) {
+
+.about-me{
+    height: 80vh;
+}
+.about-info{
+    width: 50ch;
+    font-size: 0.8rem;
+}
+}

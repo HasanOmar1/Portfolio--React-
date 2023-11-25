@@ -61,3 +61,13 @@
     padding-left: 7rem;
 }
 }
+
+@media (max-width: 400px) {
+
+
+.avatar{
+    height: 200px;
+    margin-right: 1rem;
+}
+
+}
