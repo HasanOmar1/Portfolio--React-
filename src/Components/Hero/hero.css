@@ -39,19 +39,36 @@
     }
 } 
 
+#go-top{
+    position: fixed;
+    text-decoration: none;
+    color: white;
+    right: 3rem;
+    top: 88vh;
+    padding: 15px;
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414,
+    inset 0px -10px 27px -8px #A31925,
+    5px 5px 15px 5px rgba(0,0,0,0);
+    z-index: 999;
+}
+
 @media (max-width: 1024px) {
 
 .avatar{
     margin-top: 20%;
 }    
-
+#go-top{
+    display: none;
+}
 }
 @media (max-width: 768px) {
 .avatar{
     height: 400px;
     margin-top: 10rem;
 }
-
+#go-top{
+    display: none;
+}
 }
 @media (max-width: 576px) {
 
@@ -74,6 +91,9 @@
 #to-my{
     padding-left: 7rem;
 }
+#go-top{
+    display: none;
+}
 }
 
 @media (max-width: 400px) {
@@ -82,6 +102,9 @@
 .avatar{
     height: 200px;
     margin-right: 1rem;
+}
+#go-top{
+    display: none;
 }
 
 }
