@@ -59,7 +59,32 @@ position: relative;
     opacity: 1;
 }
 
+@media (max-width: 1024px) {
+.social-media{
 
+    margin-left: 30vw;
+    margin-top: 5%;
+}
+    
+#socials-h3{
+    padding-top: 3%;
+       
+}
+
+}
+@media (max-width: 768px) {
+.social-media{
+
+    margin-left: 30vw;
+    margin-top: 5%;
+}
+
+#socials-h3{
+    padding-top: 3%;
+   
+}
+
+}
 
 @media (max-width: 576px) {
 footer{

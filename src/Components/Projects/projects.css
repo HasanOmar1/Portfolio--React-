@@ -22,6 +22,24 @@
     color: bisque;
 }
 
+@media (max-width: 1024px) {
+.my-projects{
+    height: 160vh;
+}    
+.cards{
+    flex-direction: column;
+}
+
+}
+@media (max-width: 768px) {
+.my-projects{
+    height: 200vh;
+}    
+.cards{
+    flex-direction: column;
+}
+
+}
 @media (max-width: 576px) {
 .my-projects{
         height: 200vh;
@@ -37,7 +55,7 @@
 
 @media (max-width: 400px) {
 .my-projects{
-    height: 280vh;
+    height: 270vh;
 }
 
 }

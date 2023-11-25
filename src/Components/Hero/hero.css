@@ -39,6 +39,20 @@
     }
 } 
 
+@media (max-width: 1024px) {
+
+.avatar{
+    margin-top: 20%;
+}    
+
+}
+@media (max-width: 768px) {
+.avatar{
+    height: 400px;
+    margin-top: 10rem;
+}
+
+}
 @media (max-width: 576px) {
 
 #home{
