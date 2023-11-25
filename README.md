@@ -2,4 +2,4 @@
 
 ## Site's Link
 
-https://hasan-portfolioooooooooooooooo.netlify.app/
+https://hasan-portfolio-appleseeds.netlify.app/
