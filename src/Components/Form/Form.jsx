@@ -2,6 +2,8 @@ import React from 'react'
 import './form.css'
 
 export default function Form() {
+
+
   return (
     <section id='contact' className='form-section'>
         <h1>Contact Me</h1>
