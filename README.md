@@ -17,7 +17,7 @@ I have created a simple responsive portfolio using react.
 - Contact me form
 - Footer with social media links
 
-## Preview
+## Previews
 
 ![Alt text](./preview-of-my-page/image.png)
 ![Alt text](./preview-of-my-page/image-1.png)
