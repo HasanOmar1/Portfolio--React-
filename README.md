@@ -10,9 +10,17 @@ I have created a simple responsive portfolio using react.
 
 ### Whats inside the portfolio?
 
-- Navbar
+- Responsive Navbar
 - Welcome page
 - About me
-- Couple of my projects
+- Cards showcasing couple of my projects
 - Contact me form
 - Footer with social media links
+
+## Preview
+
+![Alt text](./preview-of-my-page/image.png)
+![Alt text](./preview-of-my-page/image-1.png)
+![Alt text](./preview-of-my-page/image-2.png)
+![Alt text](./preview-of-my-page/image-3.png)
+![Alt text](./preview-of-my-page/image-4.png)
