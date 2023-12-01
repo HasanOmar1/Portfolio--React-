@@ -18,3 +18,5 @@ I have created a simple responsive portfolio using react.
 - Footer with social media links
 
 ## Preview
+
+![Alt text](/preview-of-my-page/image.png)
