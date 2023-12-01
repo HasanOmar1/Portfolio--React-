@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./form.css";
 
 export default function Form() {
@@ -20,14 +20,21 @@ export default function Form() {
       email: emailInput.current.value,
       message: messageInput.current.value,
     });
+
     alert(`Thank you ${nameInput.current.value} for contacting me!`);
-    localStorage.setItem("name", nameInput.current.value);
-    localStorage.setItem("email", emailInput.current.value);
-    localStorage.setItem("message", messageInput.current.value);
+
+    // localStorage.setItem("name", nameInput.current.value);
+    // localStorage.setItem("email", emailInput.current.value);
+    // localStorage.setItem("message", messageInput.current.value);
+
     nameInput.current.value = "";
     emailInput.current.value = "";
     messageInput.current.value = "";
   }
+
+  useEffect(() => {
+    localStorage.setItem("formInfo", JSON.stringify(formInfo));
+  }, [formInfo]);
 
   return (
     <section id="contact" className="form-section">
