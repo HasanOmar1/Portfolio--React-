@@ -76,6 +76,9 @@
     
     
 }
+.btn-info-styles:hover{
+    color:#A31925;
+}
 .contact-btn{
     border-right: 3px solid #133524;
     border-left: 3px solid #133524;
