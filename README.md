@@ -12,9 +12,13 @@ I have created a simple responsive portfolio using react.
 
 - Responsive Navbar
 - Welcome page
+
+  Buttons showing different pages such as :
+
 - About me
 - Cards showcasing couple of my projects
 - Contact me form
+
 - Footer with social media links
 
 ## Preview
