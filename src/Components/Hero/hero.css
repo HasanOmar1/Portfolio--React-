@@ -26,7 +26,7 @@
     position: absolute;
     top: 20%;
     right: 20%;
-    background: url(../../assets/cat.jpg) no-repeat center center/cover;
+    background: url('../../assets/cat.jpg') no-repeat center center/cover;
     border-radius: 30%;
     animation: animate 20s infinite linear;
 }

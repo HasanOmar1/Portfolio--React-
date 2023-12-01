@@ -1,47 +1,26 @@
-import React from 'react'
-import './projects.css'
-import Cards from '../Cards/Cards'
-import minecraft from '../../assets/minecraft.png'
-import dice from '../../assets/diceGame.png'
-import amazon from '../../assets/amazon.png'
+import React from "react";
+import "./projects.css";
+import Cards from "../Cards/Cards";
+import cardsArray from "./cards";
 
 export default function Projects() {
-    const minecraftGame = `https://2d-minecraft-i-think.netlify.app/`
-    const minecraftGithub = 'https://github.com/HasanOmar1/Minecraft'
-    const diceGame = `https://1v1-dice-game.netlify.app/`
-    const diceGithub = `https://github.com/HasanOmar1/Dice-Game`
-    const amazonSite = 'https://amazon-hyperx.netlify.app/'
-    const amazonGithub = `https://github.com/HasanOmar1/Amazon`
   return (
-      <section id='projects' className="my-projects">
-        <h1>Projects</h1>
-        <div className="cards">
-        <Cards
-        title={`2D Minecraft`}
-        img={minecraft}
-        description={`2D Minecraft game with tools to play`}
-        site={minecraftGame}
-        github={minecraftGithub}
-         />
-
-        <Cards
-        title={`Dice Game`}
-        img={dice}
-        description={`1vs1 Dice game to play with friends`}
-        site={diceGame}
-        github={diceGithub}
-        />
-
-        <Cards
-        title={`Amazon Product`}
-        img={amazon}
-        description={`A copy of an amazon product using only HTML and CSS`}
-        site={amazonSite}
-        github={amazonGithub}
-        />
-        </div>
-        
+    <section id="projects" className="my-projects">
+      <h1>Projects</h1>
+      <div className="cards">
+        {cardsArray.map((cards, i) => {
+          return (
+            <Cards
+              key={i}
+              title={cards.title}
+              img={cards.img}
+              description={cards.description}
+              site={cards.site}
+              github={cards.github}
+            />
+          );
+        })}
+      </div>
     </section>
-
-  )
+  );
 }
