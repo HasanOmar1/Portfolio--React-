@@ -1,6 +1,6 @@
 .welcome-page{
     background-image: linear-gradient(to right top, #0e131c, #051f28, #002b2b, #133524, #323d1a);
-    height: 100vh;
+    height: 90vh;
 
 }
 #welcome-word{
@@ -96,16 +96,24 @@
 @media (max-width: 1024px) {
 
 .avatar{
-    margin-top: 20%;
+    height: 200px;
+    width: 200px;
+    right: 80px;
+    top: 120px;
+    
 }    
 #go-top{
     display: none;
 }
+
+.button-info-container{
+    margin-left: 20%;
 }
+}
+
 @media (max-width: 768px) {
 .avatar{
-    height: 400px;
-    margin-top: 10rem;
+left: 20px;
 }
 #go-top{
     display: none;
@@ -114,7 +122,7 @@
 @media (max-width: 576px) {
 
 #home{
-        width: 100%;
+    width: 100%;
 }
 .welcome-title{
     font-size: 3rem;
@@ -124,10 +132,9 @@
 
 }
 .avatar{
-    width: 200px;
-    margin-top: 10rem;
-    height: 300px;
-    margin-right: 50px;
+    width: 70px;
+    height: 70px;
+    top: 150px;
 }
 #to-my{
     padding-left: 7rem;
@@ -135,17 +142,36 @@
 #go-top{
     display: none;
 }
+.button-info-container{
+    display: flex;
+    margin-left: 50px;
+}
+.btn-info-styles{
+    padding: 5px;
+    font-size: 1rem; 
+}
 }
 
 @media (max-width: 400px) {
 
 
 .avatar{
-    height: 200px;
+    height: 70px;
+    width: 70px;
+    top: 130px;
     margin-right: 1rem;
 }
 #go-top{
     display: none;
+}
+.button-info-container{
+    display: flex;
+    margin-left: 50px;
+}
+.btn-info-styles{
+    padding: 5px;
+    font-size: 0.9rem; 
+    padding: 5px;
 }
 
 }
