@@ -76,7 +76,6 @@ form textarea:focus{
     outline: 2px solid darkred;
 }
 
-
 @media (max-width: 576px) {
 
 .form-section{
