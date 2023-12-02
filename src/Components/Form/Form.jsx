@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./form.css";
+import Dialog from "../Dialog/Dialog";
 
 export default function Form() {
   const [formInfo, setFormInfo] = useState({
@@ -12,6 +13,8 @@ export default function Form() {
   const emailInput = useRef();
   const messageInput = useRef();
 
+  const dialog = useRef();
+
   function handleSubmit(e) {
     e.preventDefault();
     setFormInfo({
@@ -20,10 +23,10 @@ export default function Form() {
       email: emailInput.current.value,
       message: messageInput.current.value,
     });
+    dialog.current.showModal();
 
-    alert(`Thank you ${nameInput.current.value} for contacting me!`);
-
-    // localStorage.setItem("name", nameInput.current.value);
+    // alert(`Thank you ${nameInput.current.value} for contacting me!`);
+    localStorage.setItem("name", nameInput.current.value);
     // localStorage.setItem("email", emailInput.current.value);
     // localStorage.setItem("message", messageInput.current.value);
 
@@ -42,6 +45,8 @@ export default function Form() {
       <div className="welcoming-form-container">
         <div className="form-container">
           <form id="myForm" onSubmit={handleSubmit}>
+            <Dialog ref={dialog} name={localStorage.getItem("name")} />
+
             <div className="name-form size">
               <label>Name:</label>
               <input

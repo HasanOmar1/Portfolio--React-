@@ -1,0 +1,34 @@
+dialog{
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    position: fixed;
+    border-radius: 20px;
+    opacity: 0.9;
+    line-height: 1.7;
+    border: none;
+    letter-spacing: 2px;
+    padding-top: 50px;    
+    top: 40%;
+    left: 35%;
+}
+dialog::backdrop{
+    background-color: black;
+    opacity: 0.6;
+}
+
+.close-dialog{
+    padding: 10px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: orangered;
+    background-color: greenyellow;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    
+}
+#span-name{
+    color: green;
+    border-bottom: 2px solid burlywood;
+}
